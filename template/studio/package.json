@@ -23,8 +23,8 @@
     "@sanity/desk-tool": "^2.0.0",
     "@sanity/vision": "^2.0.0",
     "prop-types": "^15.6",
-    "react": "^17.0",
-    "react-dom": "^17.0"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "@sanity/cli": "^2.0.0"
