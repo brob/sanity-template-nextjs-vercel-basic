@@ -1,7 +1,8 @@
 {
   "root": true,
   "project": {
-    "name": "Basic Next.js Site"
+    "name": "Basic Next.js Site",
+    "basePath": "/studio"
   },
   "api": {
     "projectId": "PULLED_FROM_ENV",
