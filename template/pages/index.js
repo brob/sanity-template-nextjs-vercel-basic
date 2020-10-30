@@ -27,6 +27,7 @@ export default function Home({data}) {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js</a> with <a href="https://sanity.io">Sanity.io Data</a>
         </h1>
+        <br />
         <JSONPretty style={{maxWidth: "100ch", overflowX: "scroll", boxShadow: "0 0 5px rgba(0,0,0,.3"}} id="json-pretty" data={data}></JSONPretty>
 
 
