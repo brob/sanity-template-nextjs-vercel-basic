@@ -29,6 +29,28 @@ export default function Home({data}) {
         </h1>
         <JSONPretty style={{maxWidth: "100ch", overflowX: "scroll", boxShadow: "0 0 5px rgba(0,0,0,.3"}} id="json-pretty" data={data}></JSONPretty>
 
+
+        <p className={styles.description}>
+          Get started by editing{' '}
+          <code className={styles.code}>pages/index.js</code>
+        </p>
+        <p className={styles.description}>
+          Or modify your data API with <a href="/studio/">Sanity Studio</a>
+        </p>
+
+        <div className={styles.grid}>
+          <a href="https://nextjs.org/docs" className={styles.card}>
+            <h3>Next.js Documentation &rarr;</h3>
+            <p>Find in-depth information about Next.js features and API.</p>
+          </a>
+
+          <a href="https://sanity.io/docs" className={styles.card}>
+            <h3>Sanity.io Documentation</h3>
+            <p>Learn more about setting up Sanity Studio</p>
+          </a>
+
+        </div>
+
       </main>
 
     </div>
