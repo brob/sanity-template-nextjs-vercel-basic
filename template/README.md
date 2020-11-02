@@ -20,7 +20,17 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 npm run start:sanity
 ```
 
-## Learn More
+This will copy the `.env` file from the root into your `/studio` directory for Studio to run. Once it's done being built, you can open [http://localhost:3333](http://localhost:3333).
+
+## Learn more about Sanity.io
+
+To learn more about what you can do with Sanity, look at these resources:
+
+- [Sanity.io Documentation](https://www.sanity.io/docs)
+- [Customizing the Sanity Studio](https://www.sanity.io/docs/sanity-studio)
+- [Building your own Vercel 1-click Starter](https://www.sanity.io/guides/creating-a-sanity-and-vercel-1-click-starter)
+
+## Learn More about Next.js
 
 To learn more about Next.js, take a look at the following resources:
 
