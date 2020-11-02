@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+*In order to run locally, you'll need to change the values in `.env.test` and rename to `.env`.*
+
 First, run the development server:
 
 ```bash
